@@ -1,0 +1,39 @@
+The Document -> entry point into the DOM. it contains representations of 'All' content (methods/properties) within a webpage.
+Created automatically by the browser whenever we create a new page.
+
+1. Browser loads the page with incomming HTML, CSS
+<body>
+    <h1>My Grocery List</h1>
+    <img src="[imageFile]"/>
+    <ul>
+        <li>Milk</li>
+        <li>Bread</li>
+        <li>Butter</li>
+    </ul>
+</body>
+
+
+
+
+2. And The Document  assigns values to the incomming HTML And CSS
+    These are actually Js objects, and each object can have its own 'properties'
+    Also these objects can have relationship(s) with one another.
+    the 'Body' is the 'parent' of the 'H1' and the 'Ul'.
+    the 'Ul' is the 'parent' of the 'Li'(s).
+
+                                    Document (the top of the 'tree')
+                                        |
+                                        |
+                                        |
+                                       Body
+                                    /   |    \
+                                   /    |     \
+                                  /     |      \
+                                H1     img      Ul
+                                             /   |  \
+                                            Li   Li  Li
+
+** -- To see the actual Javascript version of the  document object information in the console of the Browser --**
+.dir -> Directory
+console.dir(document);
+

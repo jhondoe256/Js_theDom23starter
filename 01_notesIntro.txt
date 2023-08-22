@@ -1,0 +1,14 @@
+The Dom
+
+The Document Object Model => Allows us to interact with CSS and HTML
+
+1. Its a Javascript 'representation' of a webpage.
+
+2. Its allows us access to the contents of a webpage.
+
+3. It contains a lot of sub-objects that we can interact with using Javascript.
+
+* All interactions that we have using a webpage requires us to use Javascript.*
+
+*It manages the HTML and CSS*
+
